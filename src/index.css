@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+/* 폰트 및 기본 테마 설정 */
+body {
+  font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #faf6f0;
+  color: #3d2616;
+}
+
+/* 카페 테마 전용 인풋 스타일 */
+.cafe-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d4c3b3;
+  background-color: #ffffff;
+  color: #3d2616;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.cafe-input:focus {
+  border-color: #6b4226;
+  box-shadow: 0 0 0 3px rgba(107, 66, 38, 0.18);
+}
+
+/* 주문하기 버튼 스타일 */
+.cafe-btn-primary {
+  background-color: #6b4226;
+  color: #ffffff;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.cafe-btn-primary:hover {
+  background-color: #825230;
+}
+
+.cafe-btn-primary:active {
+  background-color: #57331b;
+}
+
+/* 주문 확인 메시지 스타일 */
+.cafe-success-msg {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  border: 1px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 14px 18px;
+}
+
+/* 커스텀 라디오 및 체크박스 액센트 */
+.cafe-accent-input {
+  accent-color: #6b4226;
+}
